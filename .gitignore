@@ -1,4 +1,3 @@
-
 # Python
 __pycache__/
 *.pyc
@@ -6,26 +5,13 @@ __pycache__/
 # Jupyter
 .ipynb_checkpoints/
 
-# Data files (keep small samples only)
-*.csv
-*.parquet
-*.feather
-*.pkl
-*.pickle
-
-# OS
+# OS / macOS
 .DS_Store
 
-# macOS
-.DS_Store
-
-# Python
-__pycache__/
-*.pyc
-
-# Jupyter
-.ipynb_checkpoints/
-
-# Data (keep only small samples if needed)
-*.csv
+# Large / temporary data (optional - be careful)
+# Uncomment these ONLY if you do NOT want to track data files
+# *.parquet
+# *.feather
+# *.pkl
+# *.pickle
 
